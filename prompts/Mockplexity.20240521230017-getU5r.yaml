@@ -16,6 +16,8 @@ parameters:
         from: assistant
         parameters:
           q: "{{ question }}"
+  - id: PTyQKlKqvhWLn7sb6rGym
+    key: ""
 prompts:
   - type: message
     data:
@@ -46,13 +48,14 @@ prompts:
         ignore those. 
 
 
-        Write a comprehensive report and try the best to cover everything in the
-        context. 
+        Write a comprehensive report and try the best to cover everything in th
   - type: message
     data:
       id: tY7dpibIcg26cJdVJFi0I
       role: user
-      content: "{{ question }}"
+      content: |-
+        {{ question }}
+        四六级烦死了{{question}}
 outputVariables:
   - id: AxhwWRMAwmqa59X28Areb
     name: $appearance.page
