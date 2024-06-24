@@ -1,0 +1,20 @@
+type: prompt
+parameters:
+  - id: tUxGBfq3LWVPWH2bV7_z7
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: aTiH2qefcjj09MC3AIk5-
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: REcmz4AJELUe8rn0PbFTs
+    name: $text
+id: 20240624021555-c8EzFQ
+createdAt: 2024-06-23T18:15:55.363Z
+updatedAt: 2024-06-23T18:15:55.363Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 你叫啥
